@@ -1,1 +1,1 @@
-[View my Jira Board](./Jira-Board/board-screenshot.png)
+![View my Jira Board](./project.jpg)
