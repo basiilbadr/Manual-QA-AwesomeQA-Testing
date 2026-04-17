@@ -8,14 +8,14 @@ Pass Rate: 75%
 
 Test Suite 1: Account Registration & Security
 
-TC ID	Test Scenario	Priority	Expected Result	Actual Result	Status
-REG_01	Valid Registration	High	Account created successfully.	Account created.	PASS
-REG_02	Duplicate Email	High	Error: "E-Mail already registered!"	Correct error displayed.	PASS
-REG_03	Empty Required Fields	Medium	Error: "Field is required."	Error: "3 to 32 characters."	PASS*
-REG_04	Password Masking	High	Input should be hidden (dots).	Characters are masked.	PASS
-REG_05	Whitespace Password	Critical	Error: "Password too weak."	Accepted 6 spaces.	FAIL
-REG_06	Privacy Policy Bypass	Medium	Blocked until checkbox is ticked.	Correctly blocked.	PASS
-REG_07	Phone Data Type	Medium	Error: "Numbers only."	Accepted "ABCDEF".	FAIL
+TC ID,Test Scenario,Priority,Expected Result,Actual Result,Status
+REG_01,Valid Registration,High,Account created successfully.,Account created.,PASS
+REG_02,Duplicate Email,High,"Error: ""E-Mail already registered!""",Correct error displayed.,PASS
+REG_03,Empty Required Fields,Medium,"Error: ""Field is required.""","Error: ""3 to 32 characters.""",PASS*
+REG_04,Password Masking,High,Input should be hidden (dots).,Characters are masked.,PASS
+REG_05,Whitespace Password,Critical,"Error: ""Password too weak.""",Accepted 6 spaces.,FAIL
+REG_06,Privacy Policy Bypass,Medium,Blocked until checkbox is ticked.,Correctly blocked.,PASS
+REG_07,Phone Data Type,Medium,"Error: ""Numbers only.""","Accepted ""ABCDEF"".",FAIL
 
 
 Test Suite 2:	Product Search & Discovery	
