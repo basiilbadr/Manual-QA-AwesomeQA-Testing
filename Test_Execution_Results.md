@@ -20,22 +20,22 @@ REG_07,Phone Data Type,Medium,"Error: ""Numbers only.""","Accepted ""ABCDEF"".",
 
 Test Suite 2:	Product Search & Discovery	
 
-TC ID	Test Scenario	Priority	Expected Result	Actual Result	Status	
-SRCH_01	Existing Product Search	High	Items (e.g., iPhone) displayed.	Product found.	PASS	
-SRCH_02	Non-existent Product	Low	"No products match" message.	Correct message shown.	PASS	
-SRCH_03	Empty Search Query	Low	Stay on page or show help msg.	Shown "no match" msg.	PASS	
-SRCH_04	Category Navigation	Medium	Clicking "Desktops" shows PCs.	Correct products load.	PASS	
-SRCH_05	Currency Toggle	High	Price updates from $ to €/£.	UI updates correctly.	PASS	
+TC ID,Test Scenario,Priority,Expected Result,Actual Result,Status
+SRCH_01,Existing Product Search,High,"Items (e.g., iPhone) displayed.",Product found.,PASS
+SRCH_02,Non-existent Product,Low,"""No products match"" message.",Correct message shown.,PASS
+SRCH_03,Empty Search Query,Low,Stay on page or show help msg.,"Shown ""no match"" msg.",PASS
+SRCH_04,Category Navigation,Medium,"Clicking ""Desktops"" shows PCs.",Correct products load.,PASS
+SRCH_05,Currency Toggle,High,Price updates from $ to €/£.,UI updates correctly.,PASS
 
 
 Test Suite 3:	Shopping Cart Logic			
 
-TC ID	Test Scenario	Priority	Expected Result	Actual Result	Status
-CART_01	Add to Cart (Home)	High	Cart total updates instantly.	Total updated.	PASS
-CART_02	Quantity Increase	High	Total price updates (Price x N).	Math is correct.	PASS
-CART_03	Remove Item	High	Item deleted; Total is $0.00.	Item removed.	PASS
-CART_04	Negative Quantity	Critical	Error: "Invalid Quantity."	Subtracted from total.	FAIL
-CART_05	Zero Quantity	Medium	Item not added/removed.	Showed "Success" msg.	FAIL
+TC ID,Test Scenario,Priority,Expected Result,Actual Result,Status
+CART_01,Add to Cart (Home),High,Cart total updates instantly.,Total updated.,PASS
+CART_02,Quantity Increase,High,Total price updates (Price x N).,Math is correct.,PASS
+CART_03,Remove Item,High,Item deleted; Total is $0.00.,Item removed.,PASS
+CART_04,Negative Quantity,Critical,"Error: ""Invalid Quantity.""",Subtracted from total.,FAIL
+CART_05,Zero Quantity,Medium,Item not added/removed.,"Showed ""Success"" msg.",FAIL
 
 
 Test Suite 4: Checkout Flow
