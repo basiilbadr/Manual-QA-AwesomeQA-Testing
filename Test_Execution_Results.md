@@ -40,7 +40,7 @@ CART_05	Zero Quantity	Medium	Item not added/removed.	Showed "Success" msg.	FAIL
 
 Test Suite 4: Checkout Flow
 
-CHKT_01	Guest Checkout Flow	High	Proceed without login.	Step-by-step works.	PASS
-CHKT_02	Terms & Cond. Bypass	High	Blocked until agreed.	Correctly blocked.	PASS
-CHKT_03	Inventory Validation	Critical	Block "Out of Stock" at Add to Cart.	Blocked only at end.	FAIL
-
+TC ID,Test Scenario,Priority,Expected Result,Actual Result,Status
+CHKT_01,Guest Checkout Flow,High,Proceed without login.,Step-by-step works.,PASS
+CHKT_02,Terms & Cond. Bypass,High,Blocked until agreed.,Correctly blocked.,PASS
+CHKT_03,Inventory Validation,Critical,"Block ""Out of Stock"" at Add to Cart.",Blocked only at end.,FAIL
